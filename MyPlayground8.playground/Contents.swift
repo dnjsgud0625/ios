@@ -7,6 +7,7 @@ var a = 20
 let b = 30
 let c = a + b
 
+a = a + 2
 a += 2
 
 let d: Double = 20
