@@ -19,6 +19,8 @@ Street["Route 2"] //Dictionary에서는 없는 값이 들어가도 nil이 출력
 
 Street["Route 35"] = 3
 
+Street
+
 Street["Route 66"] = nil
 
 Street
