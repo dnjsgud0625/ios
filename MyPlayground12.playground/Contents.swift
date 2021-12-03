@@ -18,14 +18,16 @@ a_Names.append("Alen")
 // 안전한 코딩 스타일을 추구해야함
 // a_Names[4] -> 앱 크래쉬
 
-let idx = 2
+let idx = 4
 if a_Names.count > idx {
     a_Names[idx]
 }
 a_Names = a_Names + ["Ho", "ronaldo"]
 //a_Names.append(contentsOf: ["Ho","ronaldo"])
 
-a_Names.remove(at: 3)
+a_Names.removeFirst() // 첫번째 삭제
+a_Names.removeLast() // 마지막 삭제
+a_Names.remove(at: 3) //3번째 삭제
 
 a_Names.insert("hihi", at: 2)
 
