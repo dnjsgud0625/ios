@@ -18,4 +18,5 @@ httpError.statusCode
 httpError.description
 
 topTitle.0
-topTitle.
+topTitle.1
+topTitle.self
