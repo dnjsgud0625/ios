@@ -3,7 +3,6 @@ import UIKit
 // unicode 범위 관련
 // 숫자만 입력받을 수 있어야 한다.
 
-
 let inputValue = "7"
 
 if inputValue >= "\u{30}" && inputValue <= "\u{39}"{
