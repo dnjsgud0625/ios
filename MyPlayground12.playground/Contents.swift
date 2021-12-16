@@ -9,7 +9,7 @@ import UIKit
 var a_Names = Array<String>() // 타입을 명시해주어야함
 var a_Ages = [Int]() // Int타입으로 선언
 
-a_Names.append("John")
+a_Names.append("John") //추가
 a_Names.append("Kim")
 a_Names.append("Chris")
 a_Names.append("Alen")
