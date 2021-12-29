@@ -28,7 +28,7 @@ class Baseball: GameData {
 
 class Basketball: GameData {
     var quarter = 0
-//    override func presentScore2() -> String {
+//    override func presentScore2() -> String { -> final이라 Override 불가
 //        return homeScore.description + " 대 " + awayScore.description
 //    }
 }
