@@ -58,7 +58,7 @@ myInfo3.name
 myInfo3.myID
 
 
-struct MyConfig {
+struct MyConfig { //초기값이 세팅되어 있지 않아도 변수 생성시 자동생성
     var conf: String
 }
 
